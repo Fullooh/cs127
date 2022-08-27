@@ -3,3 +3,10 @@
 #Date: ------
 #This program prints: -----
 
+first_name = input("Enter name in firstName lastName format: ")
+
+last_name = input("Enter name in lastName firstName format: ")
+
+email_name = input("Enter user name of email: ")
+
+print("email: " + email_name + "@hunter.cuny.edu")
