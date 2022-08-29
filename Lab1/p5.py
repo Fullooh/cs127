@@ -4,6 +4,7 @@
 #This program prints: -----
 
 i = input("Enter repetition time: ")
-for x in range (5):
+i = int(i)
+for x in range (i):
     print("Practice makes perfect.")
 
