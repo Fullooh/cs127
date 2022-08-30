@@ -3,9 +3,9 @@
 #Date: ------
 #This program prints: -----
 
-first_name = input("Enter name in firstName lastName format: ")
+first_name = input("Enter name in firstName, lastName format: ")
 
-last_name = input("Enter name in lastName firstName format: ")
+last_name = input("Enter name in LASTNAME, firstName format: ")
 
 email_name = input("Enter user name of email: ")
 
