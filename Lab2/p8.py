@@ -5,6 +5,6 @@
 
 myString = input("Enter a Message: ")
 
-print("letter ASCII next_two_letter ")
+print("letter ASCII next_two_letter")
 for i in myString:
-    print(i, ord(i), chr(ord(i) + 2))
+    print("%6c %5i %15c"%(i, ord(i), chr(ord(i) + 2)))
