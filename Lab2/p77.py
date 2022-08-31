@@ -3,7 +3,7 @@
 #Date: ------
 #This program prints: -----
 
-name = input("Enter name in firstName, lastName format:")
+name = input("Enter name in firstName, lastName format: ")
 
 print("name in LASTNAME, firstName format: " + name.upper())
 
