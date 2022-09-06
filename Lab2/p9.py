@@ -5,13 +5,20 @@
 
 myString = input("Enter an all-small-letter string: ")
 
-shift = input("Enter a non-negative int to shift: ")
+shift = int(input("Enter a non-negative int to shift: "))
 
+word = ""
 for m in myString:
-    
- print(m, ord(m)+13, chr(ord(m) + 13))
 
- print("ciphered string: " + m)
+    if ord(m) + 13 >= 127:
+        word += chr(ord(m) - 26 + shift)
+
+    else:
+        word += chr(ord(m) + shift)
+
+
+
+print("ciphered string: " + word)
 
 
 
