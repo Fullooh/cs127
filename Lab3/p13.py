@@ -3,17 +3,17 @@
 #Date: ------
 #This program prints: ----
 
+
 import turtle
 
 turtle.colormode(255)
+
 t=turtle.Turtle()
 
-for i in range(0,255,10):
-    t.color(i,0,i)
-    t.pensize(i)
-    t.forward(10)
+t.shape("turtle")
+t.color(150, 75, 0)
 
-for i in range(255,0,-10):
-    t.color(i,0,i)
-    t.pensize(i)
-    t.forward(10)
+for i in range(3):
+    t.forward(100)
+    t.left(120)
+    t.stamp()
