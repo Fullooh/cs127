@@ -1,0 +1,6 @@
+#Name: Angst S Gregory
+#Email: angst.gregory17@myhunter.cuny.edu
+#Date: ------
+#This program prints: ----
+
+out = not (in1 and in2) and (in1 or in2) or (in1 and in2)
