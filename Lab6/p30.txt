@@ -3,6 +3,4 @@
 #Date: ------
 #This program prints: ----
 
-out1 = in1 and in2
-out2 = in1 
-out3 = 
+Fullooh
