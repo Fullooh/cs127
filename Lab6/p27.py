@@ -24,7 +24,7 @@ print ("Median: ", i[borough].median())
 
 print ("Median: ", round(i[borough].std(),3))
 
-i[' Fraction' ] = (i[borough]) / (i['case_count'])
+i['Fraction' ] = (i[borough]) / (i['case_count'])
 
 i.plot(x = 'date_of_interest', y = 'Fraction')
 
